@@ -1,2 +1,21 @@
-# 100-days-of-algorithms
 100 Days of Algorithms
+----------------------
+
+There is a while since I'm looking for a project or something to keep me coding every day something
+to myself and publishing it under the GPL license, however my biggest problem always was what to do.
+Too many ideas, too many options.... I never decided and the time kept going on...
+
+So inspired by [100 days of algorithms](https://medium.com/100-days-of-algorithms) by Tomáš Bouda
+and the [100DaysOfCode](http://100daysofcode.com/) I decided to do something similar, but without
+that huge constraint of having to code every single day. Let's be fair, the end of the year holidays
+are coming, I'm going to travel, I might be without internet access for a few days. So I'm challenging
+myself to write a 100 algorithms/pieces of code in 150 days without no more than two days in a row
+without coding.
+
+The implementations are not meant to be the best one, they just need to work, the constraints are:
+* It must read from stdin, execute the algorithm and output to stdout
+* There must be unit tests
+* The code coverage must be 100%
+
+
+
