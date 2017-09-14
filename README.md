@@ -13,9 +13,10 @@ myself to write a 100 algorithms/pieces of code in 150 days without no more than
 without coding.
 
 The implementations are not meant to be the best one, they just need to work, the constraints are:
+
 * It must read from stdin, execute the algorithm and output to stdout
 * There must be unit tests
-* The code coverage must be 100%
+* The code coverage must be 100% (except for the ``main.go`` file)
 
 
 
