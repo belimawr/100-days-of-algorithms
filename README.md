@@ -1,5 +1,5 @@
 100 Days of Algorithms
-----------------------
+======================
 
 There is a while since I'm looking for a project or something to keep me coding every day something
 to myself and publishing it under the GPL license, however my biggest problem always was what to do.
