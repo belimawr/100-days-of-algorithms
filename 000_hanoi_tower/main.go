@@ -5,9 +5,9 @@ import (
 	"fmt"
 )
 
-var A List
-var B List
-var C List
+var A Stack
+var B Stack
+var C Stack
 
 func main() {
 	var n = flag.Uint("n", 5, "Number of disks")

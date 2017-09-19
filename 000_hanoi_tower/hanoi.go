@@ -2,22 +2,22 @@ package main
 
 import "fmt"
 
-type List struct {
-	lst []uint
-}
+type Stack []uint
 
-func (l *List) Pop() uint {
-	el := l.lst[len(l.lst)-1]
-	l.lst = l.lst[:len(l.lst)-1]
+func (l *Stack) Pop() uint {
+	last := len(*l)
+	el := (*l)[last-1]
+
+	*l = (*l)[:len(*l)-1]
 
 	return el
 }
 
-func (l *List) Push(el uint) {
-	l.lst = append(l.lst, el)
+func (l *Stack) Push(el uint) {
+	*l = append(*l, el)
 }
 
-func Move(from, aux, to *List, h uint) {
+func Move(from, aux, to *Stack, h uint) {
 	if h < 1 {
 		return
 	}
@@ -27,6 +27,7 @@ func Move(from, aux, to *List, h uint) {
 	p := from.Pop()
 	to.Push(p)
 
+	// TODO: Remove this global state dependency, probably using closure
 	fmt.Println("#########################")
 	fmt.Println(A)
 	fmt.Println(B)
