@@ -25,3 +25,7 @@ Run
 $ ./016_no_condition_swap -x 42 -y 1
 ```
 
+References
+----------
+
+* https://medium.com/100-days-of-algorithms/day-16-no-condition-swap-99ff930de0b4
