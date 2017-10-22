@@ -20,3 +20,14 @@ The implementations are not meant to be the best one, they just need to work, th
 
 
 
+Update 22/10/2017
+-----------------
+Unfortunately I'm not having enough free time to keep going with this challenge :/
+Writing some code/algorithm every day with unit-tests and a nice read-me takes a few
+hours, specially when it's not an algorithm that I use often.
+
+
+So I'll have to stop here. It was a great experience and I hope to add more thoughts to
+this repository in the future.
+
+
